@@ -1,0 +1,2 @@
+com.saha.merlin.ext.DaoImplV2
+com.saha.merlin.metier.MetierImpl
