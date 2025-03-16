@@ -1,6 +1,6 @@
 package com.saha.merlin.dao;
 
-public class IDaoImpl implements IDao {
+public class DaoImpl implements IDao {
     @Override
     public double getData() {
         System.out.println("Version base de données");

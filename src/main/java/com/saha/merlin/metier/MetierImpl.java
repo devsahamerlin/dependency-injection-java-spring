@@ -13,11 +13,11 @@ public class MetierImpl implements IMetier {
      * L'injection par le constructeur est recommandée, car elle est plus rapide et optimisée, garanti que l'objet est complet et bien configuré dès sa création.
      */
 
-    public IMetierImpl(IDao dao) {
+    public MetierImpl(IDao dao) {
         iDao = dao;
     }
 
-    public IMetierImpl() {}
+    public MetierImpl() {}
 
     @Override
     public double calcul() {
