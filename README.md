@@ -39,3 +39,12 @@
    ![instanciation utilisant le Framework Spring Version XML - V2.png](images/instanciation%20utilisant%20le%20Framework%20Spring%20Version%20XML%20-%20V2.png)
 
    ### - Version annotations
+    
+   #### - Version annotations Avec Contructeur
+    
+   ![instanciation  En utilisant le Framework Spring - constructeur.png](images/instanciation%20%20En%20utilisant%20le%20Framework%20Spring%20-%20constructeur.png)
+
+   #### - Version annotations Avec Autowired
+
+   ![instanciation En utilisant le Framework Spring - autowired.png](images/instanciation%20En%20utilisant%20le%20Framework%20Spring%20-%20autowired.png)
+    

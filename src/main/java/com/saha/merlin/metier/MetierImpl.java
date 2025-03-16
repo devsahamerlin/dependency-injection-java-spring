@@ -1,8 +1,15 @@
 package com.saha.merlin.metier;
 
 import com.saha.merlin.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier {
+
+//    @Autowired
+//    @Qualifier("d")
     private IDao iDao; // Couplage faible
 
     /**
@@ -13,11 +20,10 @@ public class MetierImpl implements IMetier {
      * L'injection par le constructeur est recommandée, car elle est plus rapide et optimisée, garanti que l'objet est complet et bien configuré dès sa création.
      */
 
-    public MetierImpl(IDao dao) {
-        iDao = dao;
+    public MetierImpl(@Qualifier("d2") IDao dao) {
+        this.iDao = dao;
     }
 
-    public MetierImpl() {}
 
     @Override
     public double calcul() {

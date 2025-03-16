@@ -5,6 +5,7 @@
 
     <bean id="d" class="com.saha.merlin.ext.DaoImplV2"/>
     <bean id="metier" class="com.saha.merlin.metier.MetierImpl">
-        <property name="dao" ref="d"/>
+<!--        <property name="dao" ref="d"/>-->
+        <constructor-arg ref="d"/>
     </bean>
 </beans>
